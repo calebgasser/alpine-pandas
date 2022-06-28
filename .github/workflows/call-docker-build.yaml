@@ -5,7 +5,7 @@ name: Docker Build
 on:
   push:
     branches:
-      - main
+      - develop
     # don't rebuild image if someone only edited unrelated files
     paths-ignore:
       - 'README.md'
